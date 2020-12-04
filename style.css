@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Sansita Swashed', cursive;
+}
+/* social-icons start  */
+.social-icons a i{   
+   width: 34px;
+   height: 34px;
+   color: white;
+   background-color: #ffb135;
+   align-items: center;
+   justify-content: center;
+   font-size: 16px;
+   display: flex;
+   border-radius: 30px;
+   
+} 
+.social-icons a{
+    text-decoration: none;
+}
+
+.social-icons a i:hover{
+    color: #ffb135;
+    background:none;
+}
+
+/* social-icons end  */
+/* top header start  */
+
+.top-header{
+    position: relative;
+    background: url(/img/background\ img.jpg); 
+    background-size: 100% 100%;
+   
+     background-repeat:no-repeat; 
+    width: 100%;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+
+    
+}
+/*bottom header start */
+.bottom-header button{
+    background: #ffb135;
+    color: white;
+    
+
+}
+.bottom-header button:hover{
+    border: 1px 2px 4px wheat;
+    box-shadow: 1px 4px 8px 0 grey;
+}
+/* bottom header end  */
+
+/* about section start */
+#button{
+padding-left: 25%;
+
+}
+#button .btn {
+color: #ffb135;
+background: none;
+border: 1px solid #ffb135;
+width: 60%;
+height: 50px;
+}
+/* about section end */
+/* skill start  */
+#skill .row h4{
+    padding-bottom: 40px;
+
+}
+/* skill end */
+/* services start */
+#services .row i{
+color: rgb(189, 189, 197);
+font-size: 50px;
+border:1px solid white;
+border-radius: 50px;
+}
+#services{
+    background: #008477;
+}
+.prag{
+    color: white;
+}
+.div{
+    color: white;
+}
+/* freelancing start */
+#freelancing button{
+    background: #ffb135;
+    color: white;
+    border: 1px solid #ffb135;
+    
+} 
+#freelancing button:hover{
+    box-shadow: 1px 4px 8px 0 grey;
+}
+/* freelancing end */
+/* services end */
+/* animation start   */
+.animate__animated{
+    animation-duration: 2s;
+    animation-delay: 
+    2s;
+}
+/* animation end   */
+/* testimonials start  */
+
+
+/* testimonials end */
+/* Portfolio section start  */
+#Portfolio .container ul{
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+#Portfolio .container ul li a{
+    justify-content: center;
+    align-items: center;
+    color:black;
+}
+#Portfolio .container ul li a:hover{
+    color:white ;
+    background: #ffb135;
+    border-radius:14px;
+    border: 1px solid #ffb135; ;
+}
+#Portfolio .container ul li{
+    list-style: none;
+    padding: 20px 20px 20px 20px;
+}
+#Portfolio .container img{
+    width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#Portfolio {
+    padding: 20px 0 100px 0;
+}
+/* Portfolio section end */
+/* blog start  */
+#blog .container  {
+    color: white;
+}
+
+
+.post-img{
+    
+    background-repeat: no-repeat;
+    
+}
+.post-image .post-info {
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+    border: none;
+    width: 100%;
+}
+.card {
+    margin: 1rem auto;
+    position: relative; 
+    background-color: none;
+    border-radius: 20px;
+    box-shadow: none;
+    border: none;
+    text-align: center;
+    justify-content: center;
+    
+  }
+  
+  .card-body {
+    z-index: 2;
+    position: absolute;
+    right:40px;
+    bottom: 0;
+    left: 40px;
+    background: #ffb135;
+    border-radius: 10px;
+    display: block;
+    color: white;
+  }
+  .card-body span{
+font-size: 10px;
+  }
+/* blog end  */
