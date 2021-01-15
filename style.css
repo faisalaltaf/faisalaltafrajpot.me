@@ -4,6 +4,7 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
     font-family: 'Sansita Swashed', cursive;
+
 }
 /* social-icons start  */
 .social-icons a i{   
@@ -67,19 +68,38 @@ border: 1px solid #ffb135;
 width: 60%;
 height: 50px;
 }
+.btn-cv{
+    color: #fdfcfb;
+background: #ffb135;
+border: 1px solid #ffb135;
+width: 60%;
+height: 50px;
+border-radius: 5px;
+
+}
+.btn-cv:hover{
+    box-shadow: 1px 4px 8px 0 grey;
+    background: #ffb135;
+    color: white;
+    border: 1px solid #ffb135;
+    border-radius: 5px;
+
+}
 /* about section end */
 /* skill start  */
 #skill .row h4{
     padding-bottom: 40px;
 
 }
+
 /* skill end */
 /* services start */
+
 #services .row i{
 color: rgb(189, 189, 197);
 font-size: 50px;
-border:1px solid white;
-border-radius: 50px;
+/* border:1px solid white; */
+/* border-radius: 50px; */
 }
 #services{
     background: #008477;
@@ -110,7 +130,9 @@ border-radius: 50px;
 }
 /* animation end   */
 /* testimonials start  */
-
+#testimonials ul li{
+list-style: none;
+}
 
 /* testimonials end */
 /* Portfolio section start  */
@@ -185,7 +207,58 @@ border-radius: 50px;
     display: block;
     color: white;
   }
+  /* hover zomg start  */
+  .card-img-top{
+    transition: transform .3s;
+  }
+  .card-img-top:hover{
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+}
+.card-body{
+    transition: transform .3s;
+}
+.card-body:hover{
+    transform: scale(1.2);
+}
+.gallery{
+    transition: transform .1s;
+    position: relative;
+
+}
+.gallery:hover{
+    transform: scale(1.1);
+}
+/* end hover  */
   .card-body span{
 font-size: 10px;
   }
+  card-body
 /* blog end  */
+.text-center ul li{
+    list-style: none;
+}
+
+
+/* rotate image effect */
+.overlay  {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 70%;
+    transition: transform .1s;
+    opacity:0;
+    color: white;
+    font-size: 20px;    
+    padding: 5px;
+    text-align: center;
+  }
+  
+  /* When you mouse over the container, fade in the overlay title */
+  .container:hover  .overlay {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  
